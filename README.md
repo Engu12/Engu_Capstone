@@ -1,5 +1,5 @@
 
-#NSS-Capstone
+NSS-Capstone
 
 1)Introduction 
 
@@ -29,42 +29,42 @@ screening areas.
 
 2)Data Extraction, Exploration,  
 
-Data explored ,extraced , cleansed, remapped and imported into the visualization platform on selected sampling
-two set of data taken before the onset of COVID and during COVID
+   Data explored ,extraced , cleansed, remapped and imported into the visualization platform on selected sampling
+   two set of data taken before the onset of COVID and during COVID
 
-For This Capston Data is extracted form the offical web from The United States Department of Transportaton and Bureau of
-Transportation Statistics
+   For This Capston Data is extracted form the offical web from The United States Department of Transportaton and Bureau of
+   Transportation Statistics
 
-https://transtats.bts.gov 
-https://transtats.bts.gov/DL_SelectFields.asp?gnoyr_VQ=FGK&QO_fu146_anzr=b0-gvzr
+   https://transtats.bts.gov 
+   https://transtats.bts.gov/DL_SelectFields.asp?gnoyr_VQ=FGK&QO_fu146_anzr=b0-gvzr
 
-Other useful resources in this projects includes the followings 
+   Other useful resources in this projects includes the followings 
 
 
-* Airports IATA and ICAO Codes identification 
-https://airportcodes.io/en/country/united-states 
+   * Airports IATA and ICAO Codes identification 
+     https://airportcodes.io/en/country/united-states 
 
-* Elaborated explanations on the reasons of flght delay
-https://www.faa.gov/nextgen/programs/weather/faq/ 
+   * Elaborated explanations on the reasons of flght delay
+     https://www.faa.gov/nextgen/programs/weather/faq/ 
 
-*How the Airports are affected during Covid ? 
-https://www.icao.int/covid/cart/Pages/CART-Take-off.aspx 
+   *How the Airports are affected during Covid ? 
+    https://www.icao.int/covid/cart/Pages/CART-Take-off.aspx 
 
-*Tracking of the Covid Case distribution at various time (John Hopkins)
-https://www.clickondetroit.com/news/national/2020/08/25/covid-19-in-the-us-tracking-states-with-the-most-cases-deaths
+   *Tracking of the Covid Case distribution at various time (John Hopkins)
+    https://www.clickondetroit.com/news/national/2020/08/25/covid-19-in-the-us-tracking-states-with-the-most-cases-deaths
 
-*Flight Performance measurement interms of OTP
-https://en.wikipedia.org/wiki/On-time_performance 
+   *Flight Performance measurement interms of OTP
+    https://en.wikipedia.org/wiki/On-time_performance 
 
 
 3)Data samping 
 
-  For this analysis task I choose only four months of data ( two before COVID and two during COVID)
+   For this analysis task I choose only four months of data ( two before COVID and two during COVID)
 
-  1)August-2019 Monthly Airliner performance Data
-  2)February_2020 Monthly Airliner performance Data
-  3)August_2020 Montly Airlines Performance Data
-  4)February_2021 Montly Airlines Performance Data
+   1)August-2019 Monthly Airliner performance Data
+   2)February_2020 Monthly Airliner performance Data
+   3)August_2020 Montly Airlines Performance Data
+   4)February_2021 Montly Airlines Performance Data
 
 
 4)Methodologies used in this capstone project 
