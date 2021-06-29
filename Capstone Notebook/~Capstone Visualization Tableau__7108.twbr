@@ -339,217 +339,6 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
-    <datasource caption='US major Airlines OTP (US major  Airlines OTP)' inline='true' name='federated.0fnopzl1rpebx3158exzi0gqonn7' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='US major  Airlines OTP' name='excel-direct.1v8ykj80u09vpi135e26b16wzjdl'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/yamar/Documents/NSS_Data_Analytics/projects/Engu_Capstone/data/Py_exported_data/US major  Airlines OTP.xls' interpretationMode='0' password='' server='' validate='no' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1v8ykj80u09vpi135e26b16wzjdl' name='US major Airlines OTP' table='[&apos;US major Airlines OTP$&apos;]' type='table'>
-          <columns gridOrigin='A1:H41:no:A1:H41:0' header='yes' outcome='2'>
-            <column datatype='string' name='Year_Month' ordinal='0' />
-            <column datatype='string' name='IATA' ordinal='1' />
-            <column datatype='integer' name='num_dep_dly' ordinal='2' />
-            <column datatype='integer' name='num_arr_dly' ordinal='3' />
-            <column datatype='integer' name='total_delay' ordinal='4' />
-            <column datatype='integer' name='total_num_flights' ordinal='5' />
-            <column datatype='real' name='OTP %' ordinal='6' />
-            <column datatype='string' name='Airline Name' ordinal='7' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1v8ykj80u09vpi135e26b16wzjdl' name='US major Airlines OTP' table='[&apos;US major Airlines OTP$&apos;]' type='table'>
-          <columns gridOrigin='A1:H41:no:A1:H41:0' header='yes' outcome='2'>
-            <column datatype='string' name='Year_Month' ordinal='0' />
-            <column datatype='string' name='IATA' ordinal='1' />
-            <column datatype='integer' name='num_dep_dly' ordinal='2' />
-            <column datatype='integer' name='num_arr_dly' ordinal='3' />
-            <column datatype='integer' name='total_delay' ordinal='4' />
-            <column datatype='integer' name='total_num_flights' ordinal='5' />
-            <column datatype='real' name='OTP %' ordinal='6' />
-            <column datatype='string' name='Airline Name' ordinal='7' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[US major Airlines OTP]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='context'>0</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:H41:no:A1:H41:0&quot;</attribute>
-              <attribute datatype='boolean' name='header'>true</attribute>
-              <attribute datatype='integer' name='outcome'>2</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Year_Month</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Year_Month]</local-name>
-            <parent-name>[US major Airlines OTP]</parent-name>
-            <remote-alias>Year_Month</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>IATA</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[IATA]</local-name>
-            <parent-name>[US major Airlines OTP]</parent-name>
-            <remote-alias>IATA</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>num_dep_dly</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[num_dep_dly]</local-name>
-            <parent-name>[US major Airlines OTP]</parent-name>
-            <remote-alias>num_dep_dly</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>num_arr_dly</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[num_arr_dly]</local-name>
-            <parent-name>[US major Airlines OTP]</parent-name>
-            <remote-alias>num_arr_dly</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>total_delay</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[total_delay]</local-name>
-            <parent-name>[US major Airlines OTP]</parent-name>
-            <remote-alias>total_delay</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>total_num_flights</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[total_num_flights]</local-name>
-            <parent-name>[US major Airlines OTP]</parent-name>
-            <remote-alias>total_num_flights</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>OTP %</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[OTP %]</local-name>
-            <parent-name>[US major Airlines OTP]</parent-name>
-            <remote-alias>OTP %</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>15</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Airline Name</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Airline Name]</local-name>
-            <parent-name>[US major Airlines OTP]</parent-name>
-            <remote-alias>Airline Name</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Iata' datatype='string' name='[IATA]' role='dimension' semantic-role='[Airport].[Name]' type='nominal' />
-      <column caption='Otp %' datatype='real' name='[OTP %]' role='measure' type='quantitative' />
-      <column caption='Year Month' datatype='string' name='[Year_Month]' role='dimension' type='nominal' />
-      <_.fcp.ObjectModelTableType.true...column caption='US major Airlines OTP' datatype='table' name='[__tableau_internal_object_id__].[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]' role='measure' type='quantitative' />
-      <column caption='Num Arr Dly' datatype='integer' name='[num_arr_dly]' role='measure' type='quantitative' />
-      <column caption='Num Dep Dly' datatype='integer' name='[num_dep_dly]' role='measure' type='quantitative' />
-      <column caption='Total Delay' datatype='integer' name='[total_delay]' role='measure' type='quantitative' />
-      <column caption='Total Num Flights' datatype='integer' name='[total_num_flights]' role='measure' type='quantitative' />
-      <mapped-images>
-        <mapped-image caption='Covid On the Airlines Image' expression='file:///C:/Users/yamar/Documents/NSS_Data_Analytics/projects/Engu_Capstone/data/Covid On the Airlines Image.png' name='[MappedImage1]'>
-          <mapping bottom='-1.8' left='0.10000000000000001' right='0.80000000000000004' top='0.0' x='[Longitude (generated)]' y='[OTP %]' />
-        </mapped-image>
-      </mapped-images>
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='US major Airlines OTP' id='US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5'>
-            <properties context=''>
-              <relation connection='excel-direct.1v8ykj80u09vpi135e26b16wzjdl' name='US major Airlines OTP' table='[&apos;US major Airlines OTP$&apos;]' type='table'>
-                <columns gridOrigin='A1:H41:no:A1:H41:0' header='yes' outcome='2'>
-                  <column datatype='string' name='Year_Month' ordinal='0' />
-                  <column datatype='string' name='IATA' ordinal='1' />
-                  <column datatype='integer' name='num_dep_dly' ordinal='2' />
-                  <column datatype='integer' name='num_arr_dly' ordinal='3' />
-                  <column datatype='integer' name='total_delay' ordinal='4' />
-                  <column datatype='integer' name='total_num_flights' ordinal='5' />
-                  <column datatype='real' name='OTP %' ordinal='6' />
-                  <column datatype='string' name='Airline Name' ordinal='7' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
     <datasource caption='All Airports Dep_Delay percent' inline='true' name='federated.1xe1ryh0w7pt9b1ekszco1jqb4xx' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -5450,6 +5239,217 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource caption='US major Airlines OTP (US major  Airlines OTP)' inline='true' name='federated.0fnopzl1rpebx3158exzi0gqonn7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='US major  Airlines OTP' name='excel-direct.1v8ykj80u09vpi135e26b16wzjdl'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/yamar/Documents/NSS_Data_Analytics/projects/Engu_Capstone/data/Py_exported_data/US major  Airlines OTP.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1v8ykj80u09vpi135e26b16wzjdl' name='US major Airlines OTP' table='[&apos;US major Airlines OTP$&apos;]' type='table'>
+          <columns gridOrigin='A1:H41:no:A1:H41:0' header='yes' outcome='2'>
+            <column datatype='string' name='Year_Month' ordinal='0' />
+            <column datatype='string' name='IATA' ordinal='1' />
+            <column datatype='integer' name='num_dep_dly' ordinal='2' />
+            <column datatype='integer' name='num_arr_dly' ordinal='3' />
+            <column datatype='integer' name='total_delay' ordinal='4' />
+            <column datatype='integer' name='total_num_flights' ordinal='5' />
+            <column datatype='real' name='OTP %' ordinal='6' />
+            <column datatype='string' name='Airline Name' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1v8ykj80u09vpi135e26b16wzjdl' name='US major Airlines OTP' table='[&apos;US major Airlines OTP$&apos;]' type='table'>
+          <columns gridOrigin='A1:H41:no:A1:H41:0' header='yes' outcome='2'>
+            <column datatype='string' name='Year_Month' ordinal='0' />
+            <column datatype='string' name='IATA' ordinal='1' />
+            <column datatype='integer' name='num_dep_dly' ordinal='2' />
+            <column datatype='integer' name='num_arr_dly' ordinal='3' />
+            <column datatype='integer' name='total_delay' ordinal='4' />
+            <column datatype='integer' name='total_num_flights' ordinal='5' />
+            <column datatype='real' name='OTP %' ordinal='6' />
+            <column datatype='string' name='Airline Name' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[US major Airlines OTP]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H41:no:A1:H41:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year_Month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Year_Month]</local-name>
+            <parent-name>[US major Airlines OTP]</parent-name>
+            <remote-alias>Year_Month</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IATA</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[IATA]</local-name>
+            <parent-name>[US major Airlines OTP]</parent-name>
+            <remote-alias>IATA</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>num_dep_dly</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[num_dep_dly]</local-name>
+            <parent-name>[US major Airlines OTP]</parent-name>
+            <remote-alias>num_dep_dly</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>num_arr_dly</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[num_arr_dly]</local-name>
+            <parent-name>[US major Airlines OTP]</parent-name>
+            <remote-alias>num_arr_dly</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_delay</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_delay]</local-name>
+            <parent-name>[US major Airlines OTP]</parent-name>
+            <remote-alias>total_delay</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_num_flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_num_flights]</local-name>
+            <parent-name>[US major Airlines OTP]</parent-name>
+            <remote-alias>total_num_flights</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OTP %</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OTP %]</local-name>
+            <parent-name>[US major Airlines OTP]</parent-name>
+            <remote-alias>OTP %</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Airline Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Airline Name]</local-name>
+            <parent-name>[US major Airlines OTP]</parent-name>
+            <remote-alias>Airline Name</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Iata' datatype='string' name='[IATA]' role='dimension' semantic-role='[Airport].[Name]' type='nominal' />
+      <column caption='Otp %' datatype='real' name='[OTP %]' role='measure' type='quantitative' />
+      <column caption='Year Month' datatype='string' name='[Year_Month]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='US major Airlines OTP' datatype='table' name='[__tableau_internal_object_id__].[US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5]' role='measure' type='quantitative' />
+      <column caption='Num Arr Dly' datatype='integer' name='[num_arr_dly]' role='measure' type='quantitative' />
+      <column caption='Num Dep Dly' datatype='integer' name='[num_dep_dly]' role='measure' type='quantitative' />
+      <column caption='Total Delay' datatype='integer' name='[total_delay]' role='measure' type='quantitative' />
+      <column caption='Total Num Flights' datatype='integer' name='[total_num_flights]' role='measure' type='quantitative' />
+      <mapped-images>
+        <mapped-image caption='Covid On the Airlines Image' expression='file:///C:/Users/yamar/Documents/NSS_Data_Analytics/projects/Engu_Capstone/data/Covid On the Airlines Image.png' name='[MappedImage1]'>
+          <mapping bottom='-1.8' left='0.10000000000000001' right='0.80000000000000004' top='0.0' x='[Longitude (generated)]' y='[OTP %]' />
+        </mapped-image>
+      </mapped-images>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='US major Airlines OTP' id='US major Airlines OTP_982C3A02C8334C02B138097EC6D8DFF5'>
+            <properties context=''>
+              <relation connection='excel-direct.1v8ykj80u09vpi135e26b16wzjdl' name='US major Airlines OTP' table='[&apos;US major Airlines OTP$&apos;]' type='table'>
+                <columns gridOrigin='A1:H41:no:A1:H41:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Year_Month' ordinal='0' />
+                  <column datatype='string' name='IATA' ordinal='1' />
+                  <column datatype='integer' name='num_dep_dly' ordinal='2' />
+                  <column datatype='integer' name='num_arr_dly' ordinal='3' />
+                  <column datatype='integer' name='total_delay' ordinal='4' />
+                  <column datatype='integer' name='total_num_flights' ordinal='5' />
+                  <column datatype='real' name='OTP %' ordinal='6' />
+                  <column datatype='string' name='Airline Name' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
   </datasources>
   <mapsources>
     <mapsource name='Tableau' />
@@ -5607,6 +5607,9 @@
           <aggregation value='true' />
         </view>
         <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1da2a1i0bomn4711rcpsf04lxa1c].[avg:Total_delay:qk]' field-type='quantitative' major-origin='0.0' major-spacing='1000.0' scope='cols' type='space' />
+          </style-rule>
           <style-rule element='header'>
             <format attr='font-family' data-class='subtotal' field='[federated.1da2a1i0bomn4711rcpsf04lxa1c].[none:state:nk]' value='Tableau Bold' />
             <format attr='color' data-class='subtotal' field='[federated.1da2a1i0bomn4711rcpsf04lxa1c].[none:state:nk]' value='#000000' />
@@ -5697,7 +5700,7 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.0kt5bje0cptctd152c0yv039jihg].[avg:Total_delay:qk]' field-type='quantitative' major-origin='100.0' major-spacing='500.0' max='692.16540540540541' min='0.0' minor-origin='0.0' minor-spacing='10.0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0kt5bje0cptctd152c0yv039jihg].[avg:Total_delay:qk]' field-type='quantitative' major-origin='0.0' major-spacing='1000.0' min='0.0' minor-origin='0.0' minor-spacing='500.0' range-type='fixedmin' scope='cols' type='space' />
           </style-rule>
           <style-rule element='header'>
             <format attr='background-color' field='[federated.0kt5bje0cptctd152c0yv039jihg].[none:state:nk]' value='#ffffff' />
@@ -5790,7 +5793,7 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.0f6g8v718eo9hj1a1zi0h1wwj8x4].[avg:Total_delay:qk]' field-type='quantitative' major-origin='0.0' major-spacing='1000.0' max='1330.5297297297298' min='0.0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0f6g8v718eo9hj1a1zi0h1wwj8x4].[avg:Total_delay:qk]' field-type='quantitative' major-origin='0.0' major-spacing='1000.0' min='0.0' range-type='fixedmin' scope='cols' type='space' />
           </style-rule>
           <style-rule element='header'>
             <format attr='background-color' field='[federated.0f6g8v718eo9hj1a1zi0h1wwj8x4].[none:state:nk]' value='#ffffff' />
@@ -5885,7 +5888,7 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.1yq91k01w83qc31f3he9t0gu2pvy].[avg:Total_delay:qk]' field-type='quantitative' major-origin='0.0' major-spacing='1000.0' max='4332.9847826086952' min='0.0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1yq91k01w83qc31f3he9t0gu2pvy].[avg:Total_delay:qk]' field-type='quantitative' major-origin='0.0' major-spacing='1000.0' min='0.0' range-type='fixedmin' scope='cols' type='space' />
           </style-rule>
           <style-rule element='cell'>
             <format attr='font-size' field='[federated.1yq91k01w83qc31f3he9t0gu2pvy].[avg:Total_delay:qk]' value='10' />
@@ -5924,7 +5927,7 @@
             </style>
           </pane>
         </panes>
-        <rows>[federated.1yq91k01w83qc31f3he9t0gu2pvy].[none:state:nk]</rows>
+        <rows>([federated.1yq91k01w83qc31f3he9t0gu2pvy].[none:state:nk] / [federated.1yq91k01w83qc31f3he9t0gu2pvy].[none:iata_code:nk])</rows>
         <cols>[federated.1yq91k01w83qc31f3he9t0gu2pvy].[avg:Total_delay:qk]</cols>
       </table>
       <simple-id uuid='{29FFE32F-BDF5-488C-A35A-F348849013E0}' />
@@ -6683,8 +6686,8 @@
           </layout-options>
           <size maxheight='1650' minheight='1650' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='69' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='68' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='73' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='72' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='5125' id='55' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6766,7 +6769,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='176' h='22000' id='27' is-fixed='true' name='US Major Airlines OTP Comparison' w='87500' x='1500' y='78000'>
+                <zone fixed-size='176' h='22000' id='27' is-fixed='true' name='US Major Airlines OTP Comparison' w='87500' x='1000' y='84250'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6813,10 +6816,92 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='2' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='84000' id='1' param='vert' w='84000' x='8000' y='8000' />
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='15' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='14' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='133' h='16625' id='4' is-fixed='true' name='Feb20 Total' w='33300' x='46500' y='3750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='188' h='23500' id='3' is-fixed='true' name='Aug19 Total' w='30900' x='3300' y='4125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='139' h='17375' id='5' is-fixed='true' name='Feb21 Total' w='24800' x='3400' y='24500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='142' h='17750' id='10' is-fixed='true' name='Delayed Feb21' w='16800' x='45500' y='26125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='124' h='15500' id='8' is-fixed='true' name='Delayed Aug20' w='23000' x='42200' y='26875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='125' h='15625' id='9' is-fixed='true' name='Delayed Feb20' w='19900' x='47800' y='29375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='83' h='10375' id='7' is-fixed='true' name='Delyed Aug19' w='21000' x='49300' y='29375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='64' h='8000' id='6' is-fixed='true' name='Aug20 Total' w='16000' x='43700' y='30500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='280' h='52125' id='11' is-fixed='true' is-scaled='1' param='C:/Users/yamar/Documents/NSS_Data_Analytics/projects/Engu_Capstone/data/Covid On the Airlines Image.png' w='98800' x='300' y='64125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -6833,7 +6918,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#55aa7f'> Capstsone - Analysis of the COVID-19 effect on the  Airlines on time performance (OTP) </run>
+            <run fontcolor='#55aa7f'>Analysis of the COVID-19 effect on the  Airlines on time performance (OTP) </run>
           </formatted-text>
         </title>
       </layout-options>
@@ -6902,39 +6987,23 @@
             <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='3423' id='3' w='98426' x='787' y='830' />
             <zone _.fcp.SetMembershipControl.false...type='flipboard-nav' _.fcp.SetMembershipControl.true...type-v2='flipboard-nav' h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' w='98426' x='787' y='4253' />
             <zone _.fcp.SetMembershipControl.false...type='flipboard' _.fcp.SetMembershipControl.true...type-v2='flipboard' h='84440' id='5' paired-zone-id='4' removable='false' w='98426' x='787' y='14730'>
-              <flipboard active-id='10' nav-type='caption' show-nav-arrows='true'>
+              <flipboard active-id='7' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='          Introductioin ' captured-sheet='' id='13' />
                   <story-point caption='raw data source ' captured-sheet='' id='2' />
                   <story-point caption='Data exploration, extraction , cleansing   processing and manipulation  processes ' captured-sheet='' id='5' />
-                  <story-point caption='Average States delay Aug19' captured-sheet='Avg State_dly Aug19' id='6'>
-                    <capturedDeltas>
-                      <worksheet name='Avg State_dly Aug19'>
-                        <rows>
-                          <column delta-type='removed' field='[federated.1da2a1i0bomn4711rcpsf04lxa1c].[none:iata_code:nk]' />
-                        </rows>
-                      </worksheet>
-                    </capturedDeltas>
-                  </story-point>
+                  <story-point caption='Average States delay Aug19' captured-sheet='Avg State_dly Aug19' id='6' />
                   <story-point caption='Average States delay Aug20 ' captured-sheet='Avg State_dly Aug20' id='7'>
                     <capturedDeltas>
                       <worksheet name='Avg State_dly Aug20'>
                         <rows>
-                          <column delta-type='removed' field='[federated.0kt5bje0cptctd152c0yv039jihg].[none:iata_code:nk]' />
+                          <column delta-type='added' field='[federated.0kt5bje0cptctd152c0yv039jihg].[none:iata_code:nk]' index='1' />
                         </rows>
                       </worksheet>
                     </capturedDeltas>
                   </story-point>
                   <story-point caption='Average states delay Feb20 ' captured-sheet='Avg States_dly Feb20' id='8' />
-                  <story-point caption='Average states delay Feb21' captured-sheet='Avg State_dly Feb21' id='9'>
-                    <capturedDeltas>
-                      <worksheet name='Avg State_dly Feb21'>
-                        <rows>
-                          <column delta-type='added' field='[federated.0f6g8v718eo9hj1a1zi0h1wwj8x4].[none:iata_code:nk]' index='1' />
-                        </rows>
-                      </worksheet>
-                    </capturedDeltas>
-                  </story-point>
+                  <story-point caption='Average states delay Feb21' captured-sheet='Avg State_dly Feb21' id='9' />
                   <story-point caption='Major US Airlines OTP /for those targeted months ' captured-sheet='US Major Airlines OTP Comparison' id='10' />
                   <story-point caption='OTP as KPI at the Targeted Months as shown in the dashboard' captured-sheet='Airlines On Time Performance Dashboard' id='14'>
                     <capturedDeltas>
@@ -6965,9 +7034,9 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' h='68361' hidden='true' id='10' story-point-id='2' w='96457' x='4232' y='17946'>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='68361' hidden='true' id='10' story-point-id='2' w='96457' x='4232' y='17946'>
           <formatted-text>
-            <run>For This Capstone raw data_set found and extracted from the official website of 
+            <run>For this capstone project , raw data found and extracted from the official website of 
 
 United States Department of Transportation (DOT)
 Bureau of Transportaion Statistics (BTS)
@@ -7012,18 +7081,17 @@ Flights on time performance is based on the following basic calculation .
             <run>Æ                                  </run>
             <run bold='true' underline='true'>INTRODUCTION</run>
             <run>Æ&#10;&#10; </run>
-            <run bold='true' fontcolor='#4e79a7' fontsize='12'>As we all know the pandemic affects the global economy mercilessly . Aviation industry is the most to have the huge impact .Most Airlines losses a huge amount of  revenue and having a tremendeous amount of los</run>
-            <run bold='true' fontcolor='#1b1b1b' fontsize='12'>s. </run>
+            <run bold='true' fontcolor='#4e79a7' fontsize='12'>As we As we all know the pandemic affects the global economy mercilessly. The aviation industry is the most to have a huge impact. Most Airlines lose a huge amount of revenue and having a tremendous amount of loss. </run>
             <run>Æ&#10;&#10;</run>
-            <run bold='true' fontcolor='#1b1b1b' fontsize='12'>what is funny paradox over here is airlines some how were a means for the virous trasnporting from one part of the globe to  the other but the virus doesn&apos;t consider that .. ..</run>
+            <run bold='true' fontcolor='#b07aa1' fontsize='12'>what is a funny paradox over here is airlines somehow were a means for the various transporting from one part of the globe to the other but the virus doesn&apos;t consider that ...</run>
             <run>Æ&#10;&#10;</run>
-            <run bold='true' fontcolor='#e15759' fontsize='12'>There are various types of scales set by local or international standardizing  bodies like  IATA , ICAO , FAA, JAA , EASA ,IOSA..etc to scale and rank Airlines,Airports and other aviation industry </run>
+            <run bold='true' fontcolor='#b07aa1' fontsize='12'>There are various types of scales set by local or international standardizing bodies like IATA, ICAO, FAA, JAA, EASA, IOSA..etc to scale and rank Airlines, Airports, and other aviation industry</run>
             <run>Æ&#10;&#10;</run>
-            <run bold='true' fontcolor='#1b1b1b' fontsize='12'>One of the ranking factor is On Time Performance (OTP)</run>
+            <run bold='true' fontcolor='#1b1b1b' fontsize='12'>One of the ranking factor is On-Time Performance (OTP)</run>
             <run>Æ&#10;&#10;</run>
-            <run bold='true' fontcolor='#1b1b1b' fontsize='12'>Does COVID scaled down all the bars from US aircarriers  ?   what about OTP ? </run>
+            <run bold='true' fontcolor='#1b1b1b' fontsize='12'>Does COVID scale down all the bars from US aircarriers  ?   what about OTP ? </run>
             <run>Æ&#10;&#10;</run>
-            <run bold='true' fontcolor='#b07aa1' fontname='Tableau Bold' fontsize='18'>Therefore , the MVP from this Capstone is to answer  the above question by having some Airlines performance sample data with in COVID and before  COVID </run>
+            <run bold='true' fontcolor='#b07aa1' fontsize='12'>Therefore, the MVP from this Capstone is to answer the above question by having some Airlines performance sample data within COVID and before COVID</run>
           </formatted-text>
         </zone>
         <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='67324' hidden='true' id='16' story-point-id='15' w='95768' x='3740' y='13797'>
@@ -7071,7 +7139,7 @@ Flights on time performance is based on the following basic calculation .
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='0.833333' source-height='240'>
-    <window class='dashboard' maximized='true' name='Dashboard 2' tab-color='#4f779a'>
+    <window class='dashboard' name='Dashboard 2' tab-color='#4f779a'>
       <viewpoints>
         <viewpoint name='Aug19 Total' />
         <viewpoint name='Aug20 Total' />
@@ -7085,7 +7153,7 @@ Flights on time performance is based on the following basic calculation .
       <active id='11' />
       <simple-id uuid='{835F153A-D85E-4FE7-B963-9F42A6122061}' />
     </window>
-    <window class='dashboard' name='Presentation OTP and COVID 19'>
+    <window class='dashboard' maximized='true' name='Presentation OTP and COVID 19'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{02ABD07F-783B-4D5B-9F84-8F847BA9F1E7}' />
@@ -7120,7 +7188,7 @@ Flights on time performance is based on the following basic calculation .
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='26' />
       <simple-id uuid='{4BD0CC08-2223-4530-9E31-A072D8D8A26C}' />
     </window>
     <window class='worksheet' name='Avg State_dly Aug19'>
